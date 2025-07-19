@@ -1,0 +1,13 @@
+import random
+
+nouns = ["faith", "wisdom", "light", "seed", "path", "river"]
+verbs = ["grows", "shines", "flows", "leads", "blooms", "speaks"]
+adjectives = ["quiet", "bold", "steady", "hidden", "true", "gentle"]
+
+def generate_proverb():
+    noun = random.choice(nouns)
+    verb = random.choice(verbs)
+    adjective = random.choice(adjectives)
+    return f"A {adjective} {noun} {verb} where hearts listen."
+
+print(generate_proverb())
