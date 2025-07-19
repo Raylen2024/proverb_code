@@ -11,3 +11,4 @@ def generate_proverb():
     return f"A {adjective} {noun} {verb} where hearts listen."
 
 print(generate_proverb())
+print ("Any other task you'd like help with?")
